@@ -1,0 +1,24 @@
+.inputBox {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.buttons {
+  padding: 8px, 16px;
+  background: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.buttons.red {
+  background: #ff4444;
+}
+
+.buttons:hover {
+  background: #2563eb;
+}
